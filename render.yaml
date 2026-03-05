@@ -25,7 +25,3 @@ services:
         value: local_trusted
       - key: PAPERCLIP_DEPLOYMENT_EXPOSURE
         value: public
-    disk:
-      name: paperclip-data
-      mountPath: /paperclip
-      sizeGB: 1
