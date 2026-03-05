@@ -25,3 +25,9 @@ services:
         value: authenticated
       - key: PAPERCLIP_DEPLOYMENT_EXPOSURE
         value: public
+      - key: PAPERCLIP_AUTH_BASE_URL_MODE
+        value: explicit
+      - key: PAPERCLIP_AUTH_PUBLIC_BASE_URL
+        value: https://paperclip-p5e2.onrender.com
+      - key: BETTER_AUTH_SECRET
+        generateValue: true
