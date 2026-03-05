@@ -22,6 +22,6 @@ services:
       - key: NODE_ENV
         value: production
       - key: PAPERCLIP_DEPLOYMENT_MODE
-        value: local_trusted
+        value: authenticated
       - key: PAPERCLIP_DEPLOYMENT_EXPOSURE
         value: public
